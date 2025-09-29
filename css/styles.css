@@ -10970,3 +10970,13 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.imagem-interativa {
+    /* Adiciona uma transição suave para o efeito */
+    transition: transform 0.3s ease; 
+}
+
+.imagem-interativa:hover {
+    /* Aumenta a imagem em 10% (1.1) quando o mouse passa por cima */
+    transform: scale(1.1); 
+}
